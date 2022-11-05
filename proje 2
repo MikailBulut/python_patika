@@ -1,0 +1,19 @@
+def reversed_f(x):
+    x.reverse()
+    return x
+    
+    
+    
+k=[[1, 2], [3, 4], [5, 6, 7]]
+l = sorted(k[2])
+m = sorted(k[1])
+n = sorted(k[0])
+final =[]
+
+reversed_f(l)
+reversed_f(m)
+reversed_f(n)
+
+final.extend([l,m,n])
+
+print(final)
