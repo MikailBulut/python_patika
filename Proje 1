@@ -1,0 +1,9 @@
+def flat(x):
+    for i in x:
+        if isinstance(i,list):
+            flat(i)
+        else:
+            flat_list.append(i)
+       
+flat(l)
+print(flat_list)
